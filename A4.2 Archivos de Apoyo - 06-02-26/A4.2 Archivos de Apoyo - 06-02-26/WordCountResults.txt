@@ -1,0 +1,4 @@
+Row Labels	Count of C:\Users\msalm\AppData\Local\Temp\pytest-of-msalm\pytest-0\test_counts_words0\tc.txt
+mundo	3
+hola	2
+Time Elapsed (s):	0.024766
