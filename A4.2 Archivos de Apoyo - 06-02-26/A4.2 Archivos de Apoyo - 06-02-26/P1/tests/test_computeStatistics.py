@@ -3,8 +3,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRIPT = ROOT/"P1"/"source"/"computeStatistics.py"
-
+SCRIPT = ROOT / "P1" / "source" / "compute_statistics.py"
+#C:\Users\msalm\A01625367_A4.2\A4.2 Archivos de Apoyo - 06-02-26\A4.2 Archivos de Apoyo - 06-02-26\P1\source\compute_statistics.py
 
 def run(script: Path, input_file: Path) -> subprocess.CompletedProcess:
     return subprocess.run(
