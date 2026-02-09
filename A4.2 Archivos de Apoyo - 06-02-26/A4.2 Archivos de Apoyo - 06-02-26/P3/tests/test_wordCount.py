@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRIPT = ROOT / "P3" / "source" / "wordCount.py"
+SCRIPT = ROOT / "P3" / "source" / "word_count.py"
 
 
 def test_counts_words(tmp_path: Path):

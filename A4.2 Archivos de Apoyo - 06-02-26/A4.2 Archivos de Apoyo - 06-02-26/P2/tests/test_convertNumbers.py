@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRIPT = ROOT / "P2" / "source" / "convertNumbers.py"
+SCRIPT = ROOT / "P2" / "source" / "convert_numbers.py"
 
 
 def test_simple_values(tmp_path: Path):
